@@ -1,60 +1,50 @@
 #include <iostream>
-int a,b,c;
 using namespace std;
 
 
 int main () {
-	cout  << "Enter first number \n";
-	cin>>a;
-	cout  << "Enter second number \n";
-	cin>>b;
-	cout  << "Enter third number \n";
-	cin>>c;
-	if (a>b)
-	{
-		if (a>c)
-		{
-			cout<<" max is "<<a<<endl;
-			if (b>c)
-			{
-				cout<<" middle number is "<<b<<endl;
-				cout<<" min is "<<c<<endl;
+	int a,b,c;
+	std::cout  << "Enter first number \n";
+	std::cin >> a;
+	std::cout  << "Enter second number \n";
+	std::cin >> b;
+	std::cout  << "Enter third number \n";
+	std::cin >> c;
+	if (a>b){
+		if (a>c){
+			std::cout << " max is " << a << std::endl;
+			if (b>c){
+				std::cout << " middle number is " << b << std::endl;
+				std::cout << " min is " << c << std::endl;
 			}
-			else
-			{
-				cout<<" middle number is "<<c<<endl;
-				cout<<" min is "<<b<<endl;
+			else{
+				std::cout << " middle number is " << c << std::endl;
+				std::cout << " min is " << b << std::endl;
 			}
 		} 
-		else
-		{
-		cout<<" max is "<<c<<endl;
-		cout<<" middle number is "<<a<<endl;
-		cout<<" min is "<<b<<endl;	
+		else{
+		std::cout << " max is " << c << std::endl;
+		std::cout << " middle number is " << a << std::endl;
+		std::cout << " min is " << b << std::endl;	
 		}
 		
 	}
 	else {
-	
-		if (a>c)
-		{
-		cout<<" max is "<<b<<endl;
-		cout<<" middle number is "<<a<<endl;
-		cout<<" min is "<<c<<endl;	
+		if (a>c){
+		std::cout << " max is " << b << std::endl;
+		std::cout << " middle number is " << a << std::endl;
+		std::cout << " min is " << c << std::endl;	
 		}
-	    else 
-	    {
-		if (b>c)
-		{
-		cout<<" max is "<<b<<endl;
-		cout<<" middle number is "<<c<<endl;	
+	    else{
+		if (b>c){
+			std::cout << " max is " << b << std::endl;
+			std::cout << " middle number is " << c << std::endl;	
 		}
-		else
-		{
-		cout<<" max is "<<c<<endl;
-		cout<<" middle number is "<<b<<endl;	
+		else{
+		std::cout << " max is " << c << std::endl;
+		std::cout << " middle number is " << b << std::endl;	
 		}
-		cout<<" min is "<<a<<endl;	
+		std::cout << " min is " << a << std::endl;	
 	    }
 }
 return 0;
