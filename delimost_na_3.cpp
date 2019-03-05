@@ -1,8 +1,8 @@
 #include <iostream>
-int a,b,c;
 using namespace std;
 
 int main() {
+	int a,b,c;
 	std::cout  << "Enter first number \n";
 	std::cin >> a;
 	std::cout  << "Enter second number \n";
