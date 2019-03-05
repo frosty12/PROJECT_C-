@@ -1,5 +1,4 @@
 #include <iostream>
-int a,b,c,x;
 using namespace std;
 
 
@@ -7,33 +6,24 @@ int main () {
         int a,b,c,maximum;
 	std: :cout << "Enter first number \n";
         std: :cin>>a;
-	cout  << "Enter second number \n";
-	cin>>b;
-	cout  << "Enter third number \n";
-	cin>>c;
-	x = a;
-	if (x>=b)
-    {
-
-		;
-	
+        std: :cout  << "Enter second number \n";
+        std: :cin>>b;
+        std: :cout  << "Enter third number \n";
+        std: :cin>>c;
+        maximum = a;
+	if (maximum>=b){
+                 ;
 	}
-	else
-	{
-		x = b;
-		
+	else{
+        maximum = b;
 	}
-	if (x>=c)
-	{
-	cout<<"max is "<<x<<endl;
-	cin>>x;
-	
+	if (maximum>=c){
+        std: :cout<<"max is "<<maximum<<endl;
+        std: :cin>>maximum;
 	}
-	else
-	{
-	cout<<"max is "<<c<<endl;
-	cin>>c;
-		
+	else{
+        std: :cout<<"max is "<<c<<endl;
+        std: :cin>>c;
 	}
 	return 0;
 }
