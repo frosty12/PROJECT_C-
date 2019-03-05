@@ -1,12 +1,12 @@
 #include <iostream>
-#include <cstdio>
 int a,b,c,x;
 using namespace std;
 
 
 int main () {
-	cout  << "Enter first number \n";
-	cin>>a;
+        int a,b,c,maximum;
+	std: :cout << "Enter first number \n";
+        std: :cin>>a;
 	cout  << "Enter second number \n";
 	cin>>b;
 	cout  << "Enter third number \n";
