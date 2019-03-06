@@ -10,19 +10,19 @@ int main(){
 	std::cout << "Enter number \n";
 	std::cin >> c;
 	if (a > b) {
-		if (a < c) {
-			std::cout << "More than upper bound of interval " << std::endl;
+		if (a >= c) {
+			std::cout << "Not more than upper bound of interval " << std::endl;
 		}
 		else{
-			std::cout << "Less than upper bound of interval " << std::endl;
+			std::cout << "More than upper bound of interval " << std::endl;
 		}
 	}
 	else {
-		if (b < c) {
-			std::cout << "More than upper bound of interval " << std::endl;
+		if (b >= c) {
+			std::cout << "Not more than upper bound of interval " << std::endl;
 		}
 		else{
-			std::cout << "Less than upper bound of interval " << std::endl;
+			std::cout << "More than upper bound of interval " << std::endl;
 		}
 	}
 	return 0;
