@@ -3,14 +3,19 @@
 
 int main(){
 	int a, b, c;
-    std::cout << "Enter first number \n";
+    std::cout << "Enter start of interval \n";
 	std::cin >> a;
-	std::cout << "Enter second number \n";
+	std::cout << "Enter end of interval \n";
 	std::cin >> b;
-	std::cout << "Enter third number \n";
+	std::cout << "Enter number \n";
 	std::cin >> c;
-	if ((a - b) == (b - c)){
-		std::cout << "Gets into " << std::endl;
+	if (c>a) {
+		if (c<b) {
+			std::cout << "Gets into " << std::endl;
+		}
+		else {
+			std::cout << "Dont gets into " << std::endl;
+		}
 	}
 	else{
 		std::cout << "Dont gets into " << std::endl;
