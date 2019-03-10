@@ -3,7 +3,7 @@
 
 
 int main(){
-	int i,k,suma,srar;
+	double i,k,suma,srar;
 	k=0;
 	suma = 0;
 	while (true)
